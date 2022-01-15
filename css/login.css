@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(150deg, #0C48C8, #fff, #0C48C8 );/* codigo para fondo animado*/
+  background-size: 400% 400%;/* codigo para fondo animado*/
+  animation: BgGradient 7s ease infinite;/* codigo para fondo animado*/
+}
+@keyframes BgGradient{/* key frame para fondo animado*/
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+#login .container #login-row #login-column #login-box{
+  margin-top: 170px;
+  max-width: 700px;
+  height: 390px;
+  box-shadow: 2px 2px 2px 2px #343a40;
+  border-radius: 3px; 
+  background: #FEFEFF;
+}
+.form-control{
+  background: #FEFEFF;
+  
+  border: 1px solid;
+  border-color: #FEFEFF #FEFEFF black;
+
+}
+.btn{
+  padding: 10px;
+}
+.alert{
+    width: 100%;
+    height: 40px;
+    background: #FEFEFF;
+    border-radius: 6px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 10pt sans-serif;
+}
+.msg_error{
+  font-size: 12pt;
+    color: black;
+    height: 25px;
+}
+.msg_save{
+    color: green;
+}
+
+.password{
+  color: #000000;
+  font-size: 18px;
+}
